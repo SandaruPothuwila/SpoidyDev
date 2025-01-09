@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e1e1e, #121212);
+            color: #fff;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: center;
+            padding: 15px 20px;
+            background: linear-gradient(90deg, #FF4081, #333);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+        }
+
+        .navbar a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: #FF4081;
+        }
+
+        /* Links Section */
+        .links-section {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .links-section h2 {
+            font-size: 2.5em;
+            color: #FF4081;
+            margin-bottom: 20px;
+        }
+
+        .links-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .links-item {
+            background: #333;
+            color: #FF4081;
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+            text-align: center;
+            transition: transform 0.3s ease, background 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .links-item:hover {
+            transform: scale(1.1);
+            background: #FF4081;
+            color: #fff;
+        }
+
+        .links-item i {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .links-item a {
+            text-decoration: none;
+            color: inherit;
+            font-weight: 600;
+        }
+
+        /* Featured Section */
+        .featured-link {
+            margin: 50px auto;
+            background: #444;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        .featured-link h3 {
+            font-size: 1.8em;
+            color: #FF4081;
+            margin-bottom: 15px;
+        }
+
+        .featured-link p {
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+
+        .featured-link a {
+            text-decoration: none;
+            color: #FF4081;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .featured-link a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #bbb;
+            background: #121212;
+        }
+
+        .footer a {
+            color: #FF4081;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="index.html">About Me</a>
+        <a href="links.html">Links</a>
+    </div>
+
+    <!-- Links Section -->
+    <div class="links-section">
+        <h2>My Links</h2>
+        <ul class="links-list">
+            <li class="links-item">
+                <i class="fab fa-discord"></i>
+                <a href="https://discordapp.com/users/919157607615324161" target="_blank">My Discord</a>
+            </li>
+            <li class="links-item">
+                <i class="fas fa-robot"></i>
+                <a href="https://discord.com/oauth2/authorize?client_id=1309548233734754355&permissions=140119633014&integration_type=0&scope=bot+applications.commands" target="_blank">My Discord Bot</a>
+            </li>
+            <li class="links-item">
+                <i class="fab fa-whatsapp"></i>
+                <a href="https://wa.me/1234567890" target="_blank">My WhatsApp</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Featured Section -->
+    <div class="featured-link">
+        <h3>Featured Link</h3>
+        <p>Check out my Discord bot and add it to your server for an enhanced experience!</p>
+        <a href="https://discord.com/oauth2/authorize?client_id=1309548233734754355&permissions=140119633014&integration_type=0&scope=bot+applications.commands" target="_blank">Smart ABT</a>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>Need help? <a href="mailto:Spoidygangxd@gmail.com"><i class="fas fa-envelope"></i> Contact me</a></p>
+    </div>
+</body>
+</html>
